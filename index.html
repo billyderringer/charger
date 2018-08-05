@@ -18,7 +18,8 @@
 </head>
 <body>
 
-<header>
+<header id="floating-nav"
+        class="f-center-all f-row">
     <section id="brand"
              class="f-center-all f-row">
         <img src="./assets/logo%2060x62.png" alt="Charger">
@@ -27,8 +28,25 @@
             <h3 class="sub-font">CUSTOMS</h3>
         </div>
     </section>
+    <section></section>
 </header>
 
-<script src="js/jquery-3.3.1.min.js"></script>
+<!-- Splash -->
+<section id="container-splash"
+         class="f-center-all">
+    <h1 class="main-font">We're<br/>Charger</h1>
+</section>
+
+
+
+<!-- Setup RequireJS -->
+<script data-main="config" src="require-2.3.5.js"></script>
+<script>
+    require(['config'], () => {
+        require([
+            'styles'
+        ])
+    })
+</script>
 </body>
 </html>

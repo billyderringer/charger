@@ -76,7 +76,9 @@ a:active, a:focus {
   align-items: flex-end; }
 
 header {
-  background-color: #000;
+  z-index: 900;
+  position: fixed;
+  width: 100%;
   padding: 30px; }
   header #brand img {
     height: 30px; }
@@ -88,5 +90,15 @@ header {
       margin-bottom: 3px; }
     header #brand div h3 {
       font-size: .5rem; }
+
+#container-splash {
+  height: 100vh;
+  background-image: url("../assets/splash-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 50vh; }
+  #container-splash h1 {
+    color: #e4a063;
+    font-size: 5rem; }
 
 /*# sourceMappingURL=main-style.css.map */

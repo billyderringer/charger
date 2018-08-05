@@ -1,0 +1,13 @@
+@import "../colors";
+
+#container-splash{
+  height: 100vh;
+  background-image: url("../assets/splash-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 50vh;
+  h1{
+    color: $light-gold;
+    font-size: 5rem;
+  }
+}
