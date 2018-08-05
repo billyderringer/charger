@@ -1,0 +1,41 @@
+.f-center-all{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex{
+  display: flex;
+}
+
+.f-justify-center{
+  justify-content: center;
+}
+
+.f-align-center{
+  align-items: center;
+}
+
+.f-row{
+  flex-direction: row;
+}
+
+.f-column{
+  flex-direction: column;
+}
+
+.fj-start{
+  justify-content: flex-start;
+}
+
+.fj-end{
+  justify-content: flex-end;
+}
+
+.fa-start{
+  align-items: flex-start;
+}
+
+.fa-end{
+  align-items: flex-end;
+}

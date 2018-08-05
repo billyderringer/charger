@@ -1,0 +1,23 @@
+@import "../colors";
+
+header{
+  background-color: $black;
+  padding: 30px;
+  #brand{
+    img{
+      height: 30px;
+    }
+    div{
+      color: $white;
+      margin-left: 5px;
+      h2{
+        font-size: .95rem;
+        margin-bottom: 3px;
+      }
+      h3{
+        font-size: .5rem;
+      }
+    }
+  }
+}
+
