@@ -270,6 +270,61 @@ header {
       bottom: 30px;
       right: 30px; }
 
+#container-about {
+  padding: 90px 0;
+  position: relative; }
+  #container-about #about-height {
+    height: 100%;
+    width: 100%; }
+    #container-about #about-height #about-left {
+      width: 50%; }
+      #container-about #about-height #about-left img {
+        max-height: 415px; }
+    #container-about #about-height #about-center {
+      width: 35%;
+      padding-left: 70px; }
+      #container-about #about-height #about-center h2 {
+        font-size: 2.75rem;
+        font-weight: 700; }
+      #container-about #about-height #about-center div {
+        margin: 15px 0; }
+      #container-about #about-height #about-center p {
+        font-size: .8rem;
+        font-weight: 700;
+        line-height: 1.5;
+        margin-bottom: 30px; }
+      #container-about #about-height #about-center h3 {
+        display: inline-block; }
+        #container-about #about-height #about-center h3 a {
+          color: #000;
+          font-size: .7rem;
+          border: 1px solid #bb8755;
+          padding: 10px 50px; }
+    #container-about #about-height #about-right {
+      width: 15%;
+      height: 100%;
+      color: #e4a063; }
+      #container-about #about-height #about-right h2 {
+        opacity: .25;
+        position: absolute;
+        top: 90px;
+        font-size: 13rem;
+        font-weight: 100;
+        line-height: .85; }
+      #container-about #about-height #about-right h3 {
+        opacity: .75;
+        position: absolute;
+        bottom: 140px;
+        right: 90px;
+        font-size: .6rem;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg); }
+        #container-about #about-height #about-right h3 span {
+          margin-left: 5px; }
+
 .long-white-line {
   display: inline-block;
   width: 150px;
@@ -282,7 +337,7 @@ header {
 
 .short-gold-line {
   display: inline-block;
-  width: 25px;
+  width: 35px;
   height: 1px;
   margin-bottom: 3px;
   position: relative;
