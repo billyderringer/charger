@@ -219,6 +219,8 @@ header {
       margin-right: 10px;
       color: #fff;
       font-size: .7em; }
+      #container-splash #splash-left a:hover {
+        color: #bb8755; }
     #container-splash #splash-left #social-left {
       color: #fff;
       position: absolute;
@@ -252,6 +254,8 @@ header {
       #container-splash #splash-center #count-ten a {
         color: #fff;
         margin: 0 10px; }
+        #container-splash #splash-center #count-ten a:hover {
+          color: #bb8755; }
   #container-splash #splash-right {
     width: 25%;
     padding-right: 30px; }
@@ -259,6 +263,8 @@ header {
       margin-left: 10px;
       color: #fff;
       font-size: .7em; }
+      #container-splash #splash-right a:hover {
+        color: #bb8755; }
     #container-splash #splash-right #scroll-down-splash {
       position: absolute;
       bottom: 30px;

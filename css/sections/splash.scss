@@ -15,6 +15,9 @@
       margin-right: 10px;
       color: $white;
       font-size: .7em;
+      &:hover{
+        color: $dark-gold;
+      }
     }
     #social-left{
       color: $white;
@@ -58,6 +61,9 @@
       a{
         color: $white;
         margin: 0 10px;
+        &:hover{
+          color: $dark-gold;
+        }
       }
     }
 
@@ -70,6 +76,9 @@
       margin-left: 10px;
       color: $white;
       font-size: .7em;
+      &:hover{
+        color: $dark-gold;
+      }
     }
     #scroll-down-splash{
       position: absolute;
