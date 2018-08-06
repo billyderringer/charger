@@ -22,5 +22,9 @@ define(['jquery'], () => {
             })
         }
     })
-
 })
+
+closeMenu = () => {
+    let toggler = $('#toggler')
+    toggler.prop("checked", !toggler.prop("checked"))
+}

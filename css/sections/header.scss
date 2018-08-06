@@ -149,12 +149,12 @@ header{
     #menu-toggle input:checked ~ ul{
       transform: translate(-100%, 0);
     }
-  }
 
-  h3{
-    margin: -2px 0 0 5px;
-    font-size: .75rem;
-    color: $white;
+    h3{
+      margin: -2px 0 0 5px;
+      font-size: .75rem;
+      color: $white;
+    }
   }
 }
 

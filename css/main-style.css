@@ -199,10 +199,10 @@ header {
             color: #bb8755; }
     header #menu-collapse #menu-toggle input:checked ~ ul {
       transform: translate(-100%, 0); }
-  header h3 {
-    margin: -2px 0 0 5px;
-    font-size: .75rem;
-    color: #fff; }
+    header #menu-collapse h3 {
+      margin: -2px 0 0 5px;
+      font-size: .75rem;
+      color: #fff; }
 
 #container-splash {
   height: 100vh;
