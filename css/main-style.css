@@ -110,6 +110,8 @@ header {
     margin: 0 20px; }
     header nav ul li a {
       color: #fff; }
+      header nav ul li a:hover {
+        color: #bb8755; }
   header #menu-collapse {
     /*
      * Just a quick hamburger
@@ -140,11 +142,11 @@ header {
       user-select: none; }
       header #menu-collapse #menu-toggle input {
         display: block;
-        width: 20px;
+        width: 55px;
         height: 20px;
         position: absolute;
         top: -8px;
-        left: -8px;
+        left: -2px;
         cursor: pointer;
         opacity: 0;
         /* hide this */
@@ -180,7 +182,7 @@ header {
       width: 300px;
       margin: 10px 0 0 200px;
       padding: 25px 0;
-      background: rgba(255, 255, 255, 0.1);
+      background: rgba(0, 0, 0, 0.9);
       list-style-type: none;
       -webkit-font-smoothing: antialiased;
       /* to stop flickering of text in safari */
@@ -207,7 +209,7 @@ header {
   background-image: url("../assets/splash-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 50vh; }
+  margin-bottom: 500vh; }
   #container-splash h1 {
     color: #e4a063;
     font-size: 5.5rem; }
