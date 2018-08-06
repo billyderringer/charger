@@ -6,3 +6,29 @@
 //sections
 @import "sections/header";
 @import "sections/splash";
+
+
+
+
+//SHARED CSS
+.long-white-line{
+  display: inline-block;
+  width: 150px;
+  height: 1px;
+  margin-bottom: 3px;
+  position: relative;
+  background: $white;
+  border-radius: 3px;
+  z-index: 1;
+}
+
+.short-gold-line{
+  display: inline-block;
+  width: 25px;
+  height: 1px;
+  margin-bottom: 3px;
+  position: relative;
+  background: $dark-gold;
+  border-radius: 3px;
+  z-index: 1;
+}

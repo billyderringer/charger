@@ -209,9 +209,79 @@ header {
   background-image: url("../assets/splash-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 500vh; }
-  #container-splash h1 {
-    color: #e4a063;
-    font-size: 5.5rem; }
+  display: flex;
+  flex-direction: row;
+  position: relative; }
+  #container-splash #splash-left {
+    width: 25%;
+    padding-left: 30px; }
+    #container-splash #splash-left a {
+      margin-right: 10px;
+      color: #fff;
+      font-size: .7em; }
+    #container-splash #splash-left #social-left {
+      color: #fff;
+      position: absolute;
+      bottom: 30px;
+      left: 30px; }
+  #container-splash #splash-center {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    #container-splash #splash-center div h1 {
+      color: #e4a063;
+      font-size: 5.5rem; }
+    #container-splash #splash-center div p {
+      color: #fff;
+      font-size: .8rem;
+      line-height: 1.5;
+      margin: 30px 0; }
+    #container-splash #splash-center div h2 {
+      display: inline-block;
+      border-bottom: 1px solid #bb8755;
+      padding-bottom: 5px;
+      font-size: .8rem; }
+      #container-splash #splash-center div h2 a {
+        color: #bb8755; }
+    #container-splash #splash-center #count-ten {
+      color: #fff;
+      position: absolute;
+      bottom: 25px; }
+      #container-splash #splash-center #count-ten a {
+        color: #fff;
+        margin: 0 10px; }
+  #container-splash #splash-right {
+    width: 25%;
+    padding-right: 30px; }
+    #container-splash #splash-right a {
+      margin-left: 10px;
+      color: #fff;
+      font-size: .7em; }
+    #container-splash #splash-right #scroll-down-splash {
+      position: absolute;
+      bottom: 30px;
+      right: 30px; }
+
+.long-white-line {
+  display: inline-block;
+  width: 150px;
+  height: 1px;
+  margin-bottom: 3px;
+  position: relative;
+  background: #fff;
+  border-radius: 3px;
+  z-index: 1; }
+
+.short-gold-line {
+  display: inline-block;
+  width: 25px;
+  height: 1px;
+  margin-bottom: 3px;
+  position: relative;
+  background: #bb8755;
+  border-radius: 3px;
+  z-index: 1; }
 
 /*# sourceMappingURL=main-style.css.map */
