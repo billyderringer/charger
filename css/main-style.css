@@ -501,6 +501,15 @@ header {
       #container-projects #projects a img {
         width: 100%;
         height: auto; }
+  #container-projects #more-projects {
+    padding: 50px 0 100px; }
+    #container-projects #more-projects h3 {
+      display: inline-block; }
+      #container-projects #more-projects h3 a {
+        color: #000;
+        font-size: .7rem;
+        border: 1px solid #bb8755;
+        padding: 10px 50px; }
   #container-projects #portfolio {
     color: #e4a063; }
     @media screen and (max-width: 991px) {
@@ -517,8 +526,8 @@ header {
     #container-projects #portfolio h3 {
       opacity: .75;
       position: absolute;
-      bottom: 40px;
-      right: 10px;
+      bottom: 60px;
+      right: 40px;
       padding-top: 40px;
       font-size: .6rem;
       -webkit-transform: rotate(-90deg);

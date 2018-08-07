@@ -27,6 +27,18 @@
       }
     }
   }
+  #more-projects{
+    padding: 50px 0 100px;
+    h3{
+      display: inline-block;
+      a{
+        color: $black;
+        font-size: .7rem;
+        border: 1px solid $dark-gold;
+        padding: 10px 50px;
+      }
+    }
+  }
   #portfolio{
     color: $light-gold;
     @media screen and (max-width: $tablet-max) {
@@ -44,8 +56,8 @@
     h3{
       opacity: .75;
       position: absolute;
-      bottom: 40px;
-      right: 10px;
+      bottom: 60px;
+      right: 40px;
       padding-top: 40px;
       font-size: .6rem;
       -webkit-transform: rotate(-90deg);
