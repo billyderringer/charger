@@ -1,2 +1,120 @@
 @import "../colors";
 
+#container-services{
+  padding: 90px 0;
+  position: relative;
+  background-image: url("../assets/services-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  #services-height{
+    height: 100%;
+    width: 100%;
+    #services-left{
+      width: 20%;
+      height: 100%;
+      color: $light-gold;
+      h2{
+        opacity: .25;
+        position: absolute;
+        top: -75px;
+        left: 40px;
+        font-size: 13rem;
+        font-weight: 100;
+        line-height: .85;
+      }
+      h3{
+        opacity: .75;
+        position: absolute;
+        bottom: 75px;
+        left: 40px;
+        padding-top: 40px;
+        font-size: .6rem;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        span{
+          margin-left: 5px;
+        }
+      }
+    }
+    #services-right{
+      width: 80%;
+      margin-left: 5%;
+      margin-bottom: -150px;
+      #services-gallery{
+        width: 75%;
+        #services-header{
+          justify-content: space-between;
+          align-items: flex-end;
+          margin-bottom: 40px;
+          h2{
+            color: $white;
+            font-size: 2.5rem;
+          }
+          h3{
+            display: inline-block;
+            border-bottom: 1px solid $dark-gold;
+            padding-bottom: 5px;
+            font-size: .65rem;
+            a{
+              color: $white;
+              &:hover{
+                color: $dark-gold;
+              }
+            }
+          }
+        }
+
+        #gallery{
+          justify-content: space-between;
+          div{
+            width: 270px;
+            height: 270px;
+            padding: 10px;
+            color: $transparent-white;
+            position: relative;
+            h2{
+              margin-bottom: 20px;
+            }
+            h4{
+              margin-bottom: 10px;
+              a{
+                color: $transparent-white;
+                &:hover{
+                  color: $dark-gold;
+                }
+              }
+            }
+            p{
+              width: 60%;
+              text-align: center;
+              font-size: .75rem;
+              line-height: 1.5;
+              margin: 20px;
+            }
+            h3{
+              display: inline-block;
+              border-bottom: 1px solid $dark-gold;
+              padding-bottom: 5px;
+              font-size: .65rem;
+              a{
+                color: $dark-gold;
+              }
+            }
+          }
+          #service-1{
+            background-image: url("../assets/services-1.jpg");
+          }
+          #service-2{
+            background-image: url("../assets/services-2.jpg");
+          }
+          #service-3{
+            background-image: url("../assets/services-3.jpg");
+          }
+        }
+      }
+    }
+  }
+}

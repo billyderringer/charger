@@ -37,6 +37,9 @@ header{
         }
       }
     }
+    @media (max-width: $tablet-max) {
+      display: none;
+    }
   }
 
   //begin side toggle menu

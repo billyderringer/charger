@@ -112,6 +112,9 @@ header {
       color: #fff; }
       header nav ul li a:hover {
         color: #bb8755; }
+  @media (max-width: 991px) {
+    header nav {
+      display: none; } }
   header #menu-collapse {
     /*
      * Just a quick hamburger
@@ -269,6 +272,15 @@ header {
       position: absolute;
       bottom: 30px;
       right: 30px; }
+  @media (max-width: 991px) {
+    #container-splash #splash-left {
+      display: none; }
+    #container-splash #splash-center {
+      width: 100%; }
+      #container-splash #splash-center div h1 {
+        font-size: 10vw; }
+    #container-splash #splash-right {
+      display: none; } }
 
 #container-about {
   padding: 90px 0;
@@ -278,8 +290,6 @@ header {
     width: 100%; }
     #container-about #about-height #about-left {
       width: 50%; }
-      #container-about #about-height #about-left img {
-        max-height: 415px; }
     #container-about #about-height #about-center {
       width: 35%;
       padding-left: 70px; }
@@ -315,7 +325,7 @@ header {
         opacity: .75;
         position: absolute;
         bottom: 140px;
-        right: 90px;
+        padding-top: 40px;
         font-size: .6rem;
         -webkit-transform: rotate(-90deg);
         -moz-transform: rotate(-90deg);
@@ -324,6 +334,122 @@ header {
         transform: rotate(-90deg); }
         #container-about #about-height #about-right h3 span {
           margin-left: 5px; }
+  @media (max-width: 991px) {
+    #container-about {
+      padding: 40px 0; }
+      #container-about #about-height {
+        flex-direction: column; }
+        #container-about #about-height #about-left {
+          width: 100%;
+          justify-content: center; }
+          #container-about #about-height #about-left img {
+            width: 50%;
+            height: 50%; }
+        #container-about #about-height #about-center {
+          width: 100%;
+          padding: 5% 0 0 0;
+          align-items: center; }
+          #container-about #about-height #about-center div {
+            align-items: flex-start; }
+        #container-about #about-height #about-right {
+          display: none; } }
+  @media (max-width: 767px) {
+    #container-about #about-height #about-left img {
+      width: 90%;
+      height: 90%; } }
+
+#container-services {
+  padding: 90px 0;
+  position: relative;
+  background-image: url("../assets/services-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #container-services #services-height {
+    height: 100%;
+    width: 100%; }
+    #container-services #services-height #services-left {
+      width: 20%;
+      height: 100%;
+      color: #e4a063; }
+      #container-services #services-height #services-left h2 {
+        opacity: .25;
+        position: absolute;
+        top: -75px;
+        left: 40px;
+        font-size: 13rem;
+        font-weight: 100;
+        line-height: .85; }
+      #container-services #services-height #services-left h3 {
+        opacity: .75;
+        position: absolute;
+        bottom: 75px;
+        left: 40px;
+        padding-top: 40px;
+        font-size: .6rem;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg); }
+        #container-services #services-height #services-left h3 span {
+          margin-left: 5px; }
+    #container-services #services-height #services-right {
+      width: 80%;
+      margin-left: 5%;
+      margin-bottom: -150px; }
+      #container-services #services-height #services-right #services-gallery {
+        width: 75%; }
+        #container-services #services-height #services-right #services-gallery #services-header {
+          justify-content: space-between;
+          align-items: flex-end;
+          margin-bottom: 40px; }
+          #container-services #services-height #services-right #services-gallery #services-header h2 {
+            color: #fff;
+            font-size: 2.5rem; }
+          #container-services #services-height #services-right #services-gallery #services-header h3 {
+            display: inline-block;
+            border-bottom: 1px solid #bb8755;
+            padding-bottom: 5px;
+            font-size: .65rem; }
+            #container-services #services-height #services-right #services-gallery #services-header h3 a {
+              color: #fff; }
+              #container-services #services-height #services-right #services-gallery #services-header h3 a:hover {
+                color: #bb8755; }
+        #container-services #services-height #services-right #services-gallery #gallery {
+          justify-content: space-between; }
+          #container-services #services-height #services-right #services-gallery #gallery div {
+            width: 270px;
+            height: 270px;
+            padding: 10px;
+            color: rgba(255, 255, 255, 0.75);
+            position: relative; }
+            #container-services #services-height #services-right #services-gallery #gallery div h2 {
+              margin-bottom: 20px; }
+            #container-services #services-height #services-right #services-gallery #gallery div h4 {
+              margin-bottom: 10px; }
+              #container-services #services-height #services-right #services-gallery #gallery div h4 a {
+                color: rgba(255, 255, 255, 0.75); }
+                #container-services #services-height #services-right #services-gallery #gallery div h4 a:hover {
+                  color: #bb8755; }
+            #container-services #services-height #services-right #services-gallery #gallery div p {
+              width: 60%;
+              text-align: center;
+              font-size: .75rem;
+              line-height: 1.5;
+              margin: 20px; }
+            #container-services #services-height #services-right #services-gallery #gallery div h3 {
+              display: inline-block;
+              border-bottom: 1px solid #bb8755;
+              padding-bottom: 5px;
+              font-size: .65rem; }
+              #container-services #services-height #services-right #services-gallery #gallery div h3 a {
+                color: #bb8755; }
+          #container-services #services-height #services-right #services-gallery #gallery #service-1 {
+            background-image: url("../assets/services-1.jpg"); }
+          #container-services #services-height #services-right #services-gallery #gallery #service-2 {
+            background-image: url("../assets/services-2.jpg"); }
+          #container-services #services-height #services-right #services-gallery #gallery #service-3 {
+            background-image: url("../assets/services-3.jpg"); }
 
 .long-white-line {
   display: inline-block;
@@ -344,5 +470,9 @@ header {
   background: #bb8755;
   border-radius: 3px;
   z-index: 1; }
+
+.img-set {
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 /*# sourceMappingURL=main-style.css.map */

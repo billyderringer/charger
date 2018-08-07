@@ -1,3 +1,32 @@
-
+#container-services {
+  padding: 90px 0;
+  position: relative; }
+  #container-services #services-height {
+    height: 100%;
+    width: 100%; }
+    #container-services #services-height #services-left {
+      width: 15%;
+      height: 100%;
+      color: #e4a063; }
+      #container-services #services-height #services-left h2 {
+        opacity: .25;
+        position: absolute;
+        top: 90px;
+        font-size: 13rem;
+        font-weight: 100;
+        line-height: .85; }
+      #container-services #services-height #services-left h3 {
+        opacity: .75;
+        position: absolute;
+        bottom: 140px;
+        padding-top: 40px;
+        font-size: .6rem;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg); }
+        #container-services #services-height #services-left h3 span {
+          margin-left: 5px; }
 
 /*# sourceMappingURL=services.css.map */

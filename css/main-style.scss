@@ -2,13 +2,13 @@
 @import "fonts";
 @import "colors";
 @import "flex";
+@import "breakpoints";
 
 //sections
 @import "sections/header";
 @import "sections/splash";
 @import "sections/about";
-
-
+@import "sections/services";
 
 //SHARED CSS
 .long-white-line{
@@ -31,4 +31,9 @@
   background: $dark-gold;
   border-radius: 3px;
   z-index: 1;
+}
+
+.img-set{
+  background-size: cover;
+  background-repeat: no-repeat;
 }

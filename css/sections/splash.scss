@@ -87,4 +87,20 @@
     }
   }
 
+  @media (max-width: $tablet-max) {
+    #splash-left{
+       display: none;
+     }
+    #splash-center{
+      width: 100%;
+      div{
+        h1{
+          font-size: 10vw;
+        }
+      }
+    }
+    #splash-right{
+      display: none;
+    }
+  }
 }
