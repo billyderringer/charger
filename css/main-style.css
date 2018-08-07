@@ -51,6 +51,9 @@ html, input, select, textarea, button, a {
 a {
   text-decoration: none; }
 
+body {
+  max-width: 100%; }
+
 .main-font {
   font-family: "Libre Baskerville", serif; }
 
@@ -364,6 +367,9 @@ header {
   background-image: url("../assets/services-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
+  @media screen and (max-width: 991px) {
+    #container-services {
+      background-image: url("../assets/splash-bg.jpg"); } }
   #container-services #services-height {
     height: 100%;
     width: 100%; }
@@ -371,6 +377,9 @@ header {
       width: 20%;
       height: 100%;
       color: #e4a063; }
+      @media screen and (max-width: 991px) {
+        #container-services #services-height #services-left {
+          display: none; } }
       #container-services #services-height #services-left h2 {
         opacity: .25;
         position: absolute;
@@ -397,8 +406,15 @@ header {
       width: 80%;
       margin-left: 5%;
       margin-bottom: -150px; }
+      @media screen and (max-width: 991px) {
+        #container-services #services-height #services-right {
+          margin-left: 0;
+          width: 100%; } }
       #container-services #services-height #services-right #services-gallery {
         width: 75%; }
+        @media screen and (max-width: 991px) {
+          #container-services #services-height #services-right #services-gallery {
+            width: 100%; } }
         #container-services #services-height #services-right #services-gallery #services-header {
           justify-content: space-between;
           align-items: flex-end;
@@ -415,16 +431,28 @@ header {
               color: #fff; }
               #container-services #services-height #services-right #services-gallery #services-header h3 a:hover {
                 color: #bb8755; }
+          @media screen and (max-width: 991px) {
+            #container-services #services-height #services-right #services-gallery #services-header #services-title {
+              margin-left: 40px; }
+            #container-services #services-height #services-right #services-gallery #services-header #learn-more-services {
+              display: none; } }
         #container-services #services-height #services-right #services-gallery #gallery {
-          justify-content: space-between; }
+          justify-content: center;
+          flex-wrap: wrap; }
           #container-services #services-height #services-right #services-gallery #gallery div {
             width: 270px;
             height: 270px;
             padding: 10px;
+            margin: .5vw;
             color: rgba(255, 255, 255, 0.75);
             position: relative; }
+            @media screen and (max-width: 991px) {
+              #container-services #services-height #services-right #services-gallery #gallery div {
+                margin: 0 0 2.5vw 0; } }
             #container-services #services-height #services-right #services-gallery #gallery div h2 {
-              margin-bottom: 20px; }
+              margin-bottom: 20px;
+              font-weight: 100;
+              font-size: 1.2rem; }
             #container-services #services-height #services-right #services-gallery #gallery div h4 {
               margin-bottom: 10px; }
               #container-services #services-height #services-right #services-gallery #gallery div h4 a {
@@ -450,6 +478,56 @@ header {
             background-image: url("../assets/services-2.jpg"); }
           #container-services #services-height #services-right #services-gallery #gallery #service-3 {
             background-image: url("../assets/services-3.jpg"); }
+
+#container-projects {
+  padding-top: 150px;
+  position: relative; }
+  @media screen and (max-width: 767px) {
+    #container-projects {
+      padding-top: 100px; } }
+  #container-projects h2 {
+    font-size: 2.5rem; }
+  #container-projects span {
+    margin: 25px 0 50px; }
+  #container-projects #projects {
+    padding: .5vw;
+    font-size: 0;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    #container-projects #projects a {
+      width: 420px;
+      max-width: 420px;
+      margin: .5vw; }
+      #container-projects #projects a img {
+        width: 100%;
+        height: auto; }
+  #container-projects #portfolio {
+    color: #e4a063; }
+    @media screen and (max-width: 991px) {
+      #container-projects #portfolio {
+        display: none; } }
+    #container-projects #portfolio h2 {
+      opacity: .25;
+      position: absolute;
+      top: 200px;
+      right: 40px;
+      font-size: 13rem;
+      font-weight: 100;
+      line-height: .85; }
+    #container-projects #portfolio h3 {
+      opacity: .75;
+      position: absolute;
+      bottom: 40px;
+      right: 10px;
+      padding-top: 40px;
+      font-size: .6rem;
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      transform: rotate(-90deg); }
+      #container-projects #portfolio h3 span {
+        margin-bottom: 2px; }
 
 .long-white-line {
   display: inline-block;

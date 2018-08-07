@@ -6,6 +6,9 @@
   background-image: url("../assets/services-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  @media screen and (max-width: $tablet-max) {
+    background-image: url("../assets/splash-bg.jpg");
+  }
   #services-height{
     height: 100%;
     width: 100%;
@@ -13,6 +16,9 @@
       width: 20%;
       height: 100%;
       color: $light-gold;
+      @media screen and (max-width: $tablet-max) {
+        display: none;
+      }
       h2{
         opacity: .25;
         position: absolute;
@@ -43,8 +49,15 @@
       width: 80%;
       margin-left: 5%;
       margin-bottom: -150px;
+      @media screen and (max-width: $tablet-max) {
+        margin-left: 0;
+        width: 100%;
+      }
       #services-gallery{
         width: 75%;
+        @media screen and (max-width: $tablet-max) {
+          width: 100%;
+        }
         #services-header{
           justify-content: space-between;
           align-items: flex-end;
@@ -65,18 +78,33 @@
               }
             }
           }
+          @media screen and (max-width: $tablet-max) {
+            #services-title{
+              margin-left: 40px;
+            }
+            #learn-more-services{
+              display: none;
+            }
+          }
         }
 
         #gallery{
-          justify-content: space-between;
+          justify-content: center;
+          flex-wrap: wrap;
           div{
             width: 270px;
             height: 270px;
             padding: 10px;
+            margin: .5vw;
             color: $transparent-white;
             position: relative;
+            @media screen and (max-width: $tablet-max) {
+              margin: 0 0 2.5vw 0;
+            }
             h2{
               margin-bottom: 20px;
+              font-weight: 100;
+              font-size: 1.2rem;
             }
             h4{
               margin-bottom: 10px;

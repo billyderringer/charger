@@ -1,0 +1,61 @@
+@import "../colors";
+
+#container-projects{
+  padding-top: 150px;
+  position: relative;
+  @media screen and (max-width: $phone) {
+    padding-top: 100px;
+  }
+  h2{
+    font-size: 2.5rem;
+  }
+  span{
+    margin: 25px 0 50px;
+  }
+  #projects{
+    padding: .5vw;
+    font-size: 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    a{
+      width: 420px;
+      max-width: 420px;
+      margin: .5vw;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  #portfolio{
+    color: $light-gold;
+    @media screen and (max-width: $tablet-max) {
+      display: none;
+    }
+    h2{
+      opacity: .25;
+      position: absolute;
+      top: 200px;
+      right: 40px;
+      font-size: 13rem;
+      font-weight: 100;
+      line-height: .85;
+    }
+    h3{
+      opacity: .75;
+      position: absolute;
+      bottom: 40px;
+      right: 10px;
+      padding-top: 40px;
+      font-size: .6rem;
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+      span{
+        margin-bottom: 2px;
+      }
+    }
+  }
+}
