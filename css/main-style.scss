@@ -10,6 +10,7 @@
 @import "sections/about";
 @import "sections/services";
 @import "sections/projects";
+@import "sections/testimonial";
 
 //SHARED CSS
 .long-white-line{
@@ -26,6 +27,17 @@
 .short-gold-line{
   display: inline-block;
   width: 35px;
+  height: 1px;
+  margin-bottom: 3px;
+  position: relative;
+  background: $dark-gold;
+  border-radius: 3px;
+  z-index: 1;
+}
+
+.long-gold-line{
+  display: inline-block;
+  width: 75px;
   height: 1px;
   margin-bottom: 3px;
   position: relative;

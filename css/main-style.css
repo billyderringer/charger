@@ -538,6 +538,71 @@ header {
       #container-projects #portfolio h3 span {
         margin-bottom: 2px; }
 
+#container-testimonial {
+  background-image: url("../assets/testimonial-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 35vh 0;
+  color: rgba(255, 255, 255, 0.75);
+  position: relative; }
+  #container-testimonial #t-content {
+    position: relative; }
+    #container-testimonial #t-content a {
+      color: rgba(255, 255, 255, 0.75); }
+    #container-testimonial #t-content i {
+      -webkit-transform: scale(2);
+      -moz-transform: scale(2);
+      -ms-transform: scale(2);
+      -o-transform: scale(2);
+      transform: scale(2); }
+    #container-testimonial #t-content h2 {
+      margin: 0 150px;
+      font-weight: 100;
+      text-align: center;
+      font-size: 1.6vw; }
+    #container-testimonial #t-content #quote-icon {
+      color: rgba(228, 160, 99, 0.1);
+      position: absolute;
+      bottom: 40px;
+      left: 150px;
+      font-size: 3rem; }
+  #container-testimonial #happy-clients {
+    color: #e4a063; }
+    @media screen and (max-width: 991px) {
+      #container-testimonial #happy-clients {
+        display: none; } }
+    #container-testimonial #happy-clients h2 {
+      opacity: .25;
+      position: absolute;
+      top: -75px;
+      left: 40px;
+      font-size: 13rem;
+      font-weight: 100;
+      line-height: .85; }
+    #container-testimonial #happy-clients h3 {
+      opacity: .75;
+      position: absolute;
+      bottom: 80px;
+      left: 40px;
+      padding-top: 40px;
+      font-size: .6rem;
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      transform: rotate(-90deg); }
+      #container-testimonial #happy-clients h3 span {
+        margin-bottom: 2px; }
+  #container-testimonial h3 {
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-bottom: 10px; }
+  #container-testimonial h4 {
+    font-weight: 100;
+    font-size: .8rem; }
+  #container-testimonial span {
+    margin: 20px 0; }
+
 .long-white-line {
   display: inline-block;
   width: 150px;
@@ -551,6 +616,16 @@ header {
 .short-gold-line {
   display: inline-block;
   width: 35px;
+  height: 1px;
+  margin-bottom: 3px;
+  position: relative;
+  background: #bb8755;
+  border-radius: 3px;
+  z-index: 1; }
+
+.long-gold-line {
+  display: inline-block;
+  width: 75px;
   height: 1px;
   margin-bottom: 3px;
   position: relative;

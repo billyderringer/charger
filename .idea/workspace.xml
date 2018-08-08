@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="df87c3b8-2fa3-4598-aa33-d11422933a8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/colors.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main-style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/projects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main-style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,7 +34,7 @@
           <entry key="jpg" value="1" />
           <entry key="js" value="20" />
           <entry key="json" value="1" />
-          <entry key="scss" value="37" />
+          <entry key="scss" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -44,26 +45,26 @@
           <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="20" />
-          <entry key="SCSS" value="37" />
+          <entry key="SCSS" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="3" />
-          <entry key="html" value="3049" />
+          <entry key="html" value="3340" />
           <entry key="js" value="435" />
           <entry key="json" value="4" />
-          <entry key="scss" value="5515" />
+          <entry key="scss" value="6106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1" />
           <entry key="Git file" value="3" />
-          <entry key="HTML" value="3049" />
+          <entry key="HTML" value="3340" />
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="434" />
-          <entry key="SCSS" value="5515" />
+          <entry key="SCSS" value="6106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -74,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="212" column="13" selection-start-line="212" selection-start-column="13" selection-end-line="212" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="230" column="12" selection-start-line="230" selection-start-column="12" selection-end-line="230" selection-end-column="47" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="e#2699#2705#0" expanded="true" />
@@ -86,10 +87,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/sections/projects.scss">
+        <entry file="file://$PROJECT_DIR$/css/sections/testimonial.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+            <state relative-caret-position="204">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -97,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main-style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="63">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -151,12 +152,13 @@
         <option value="$PROJECT_DIR$/css/sections/header.scss" />
         <option value="$PROJECT_DIR$/css/sections/splash.scss" />
         <option value="$PROJECT_DIR$/css/sections/about.scss" />
-        <option value="$PROJECT_DIR$/css/colors.scss" />
-        <option value="$PROJECT_DIR$/css/main-style.scss" />
         <option value="$PROJECT_DIR$/css/reset.min.scss" />
-        <option value="$PROJECT_DIR$/css/sections/services.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/sections/projects.scss" />
+        <option value="$PROJECT_DIR$/css/sections/services.scss" />
+        <option value="$PROJECT_DIR$/css/main-style.scss" />
+        <option value="$PROJECT_DIR$/css/colors.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/sections/testimonial.scss" />
       </list>
     </option>
   </component>
@@ -261,12 +263,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533499209060</updated>
-      <workItem from="1533499210216" duration="69165000" />
+      <workItem from="1533499210216" duration="74975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69165000" />
+    <option name="totallyTimeSpent" value="74975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -451,31 +453,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main-style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/reset.min.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1190" selection-start-column="1190" selection-end-column="1190" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/sections/services.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -486,10 +467,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/sections/services.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main-style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sections/projects.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="71" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="212" column="13" selection-start-line="212" selection-start-column="13" selection-end-line="212" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="230" column="12" selection-start-line="230" selection-start-column="12" selection-end-line="230" selection-end-column="47" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="e#2699#2705#0" expanded="true" />
@@ -498,10 +507,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/sections/projects.scss">
+    <entry file="file://$PROJECT_DIR$/css/sections/testimonial.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        <state relative-caret-position="204">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
         </state>
       </provider>
     </entry>
