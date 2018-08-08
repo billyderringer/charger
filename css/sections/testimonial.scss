@@ -9,22 +9,35 @@
   position: relative;
   #t-content{
     position: relative;
-    a{
-      color: $transparent-white;
+    @media screen and (max-width: $tablet-max) {
+      a {
+        i{
+          display: none;
+        }
+      }
+      #testimony{
+        margin: 0 10px;
+        font-size: 3.5vw;
+      }
 
     }
-    i{
-       -webkit-transform: scale(2);
-       -moz-transform: scale(2);
-       -ms-transform: scale(2);
-       -o-transform: scale(2);
-       transform: scale(2);
-     }
+    a{
+      color: $transparent-white;
+      i{
+      -webkit-transform: scale(2);
+      -moz-transform: scale(2);
+      -ms-transform: scale(2);
+      -o-transform: scale(2);
+      transform: scale(2);
+    }
+    }
+
     h2{
       margin: 0 150px;
       font-weight: 100;
       text-align: center;
       font-size: 1.6vw;
+
     }
     #quote-icon{
       color: $super-transparent-gold;
