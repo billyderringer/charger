@@ -98,16 +98,6 @@ header {
   width: 100%;
   padding: 30px;
   justify-content: space-between; }
-  header #brand img {
-    height: 30px; }
-  header #brand div {
-    color: #fff;
-    margin-left: 5px; }
-    header #brand div h2 {
-      font-size: .95rem;
-      margin-bottom: 3px; }
-    header #brand div h3 {
-      font-size: .5rem; }
   header nav ul li {
     font-size: .65rem;
     margin: 0 20px; }
@@ -501,15 +491,6 @@ header {
       #container-projects #projects a img {
         width: 100%;
         height: auto; }
-  #container-projects #more-projects {
-    padding: 50px 0 100px; }
-    #container-projects #more-projects h3 {
-      display: inline-block; }
-      #container-projects #more-projects h3 a {
-        color: #000;
-        font-size: .7rem;
-        border: 1px solid #bb8755;
-        padding: 10px 50px; }
   #container-projects #portfolio {
     color: #e4a063; }
     @media screen and (max-width: 991px) {
@@ -603,6 +584,95 @@ header {
   #container-testimonial span {
     margin: 20px 0; }
 
+#container-description {
+  width: 100%;
+  padding: 90px 0;
+  position: relative; }
+  #container-description img {
+    max-height: 415px;
+    max-width: 500px;
+    width: 100%;
+    margin-right: -25px; }
+  #container-description span {
+    margin: 25px 0; }
+  #container-description div {
+    margin-left: 100px;
+    width: 25%; }
+    #container-description div h2 {
+      font-size: 3em; }
+    #container-description div p {
+      font-size: .8rem;
+      position: relative; }
+      #container-description div p #t-indent {
+        color: #bb8755;
+        position: absolute;
+        top: -28px;
+        font-size: 2rem; }
+  #container-description #customs {
+    color: #e4a063; }
+    @media screen and (max-width: 991px) {
+      #container-description #customs {
+        display: none; } }
+    #container-description #customs h2 {
+      opacity: .25;
+      position: absolute;
+      top: -80px;
+      right: 80px;
+      font-size: 13rem;
+      font-weight: 100;
+      line-height: .85; }
+    #container-description #customs h3 {
+      opacity: .75;
+      position: absolute;
+      bottom: 120px;
+      right: 120px;
+      padding-top: 40px;
+      font-size: .6rem;
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      transform: rotate(-90deg); }
+      #container-description #customs h3 span {
+        margin-bottom: 2px; }
+
+.par-indent {
+  padding-left: 25px; }
+
+footer {
+  background-color: #000;
+  justify-content: space-between;
+  padding: 30px 15%; }
+  footer .brand {
+    display: inline-block; }
+    footer .brand div {
+      display: inline-block; }
+  footer ul li {
+    margin-left: 10px; }
+    footer ul li a {
+      color: #fff;
+      font-size: .75rem; }
+  footer p {
+    color: #6f6f6f;
+    font-size: .75rem;
+    padding: 15px 0; }
+    footer p a {
+      color: #fff; }
+  footer #credit {
+    text-align: right;
+    margin-top: 15px; }
+
+.brand img {
+  height: 30px; }
+.brand div {
+  color: #fff;
+  margin-left: 5px; }
+  .brand div h2 {
+    font-size: .95rem;
+    margin-bottom: 3px; }
+  .brand div h3 {
+    font-size: .5rem; }
+
 .long-white-line {
   display: inline-block;
   width: 150px;
@@ -632,6 +702,15 @@ header {
   background: #bb8755;
   border-radius: 3px;
   z-index: 1; }
+
+.more {
+  padding: 50px 0;
+  display: inline-block; }
+  .more a {
+    color: #000;
+    font-size: .7rem;
+    border: 1px solid #bb8755;
+    padding: 10px 50px; }
 
 .img-set {
   background-size: cover;

@@ -1,0 +1,34 @@
+@import "../colors";
+
+footer{
+  background-color: $black;
+  justify-content: space-between;
+  padding: 30px 15%;
+  .brand{
+    display: inline-block;
+    div{
+      display: inline-block;
+    }
+  }
+  ul{
+    li{
+      margin-left: 10px;
+      a{
+        color: $white;
+        font-size: .75rem;
+      }
+    }
+  }
+  p{
+    color: $dark-grey;
+    font-size: .75rem;
+    padding: 15px 0;
+    a{
+      color: $white;
+    }
+  }
+  #credit{
+    text-align: right;
+    margin-top: 15px;
+  }
+}

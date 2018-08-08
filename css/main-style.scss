@@ -11,8 +11,27 @@
 @import "sections/services";
 @import "sections/projects";
 @import "sections/testimonial";
+@import "sections/description";
+@import "sections/footer";
 
 //SHARED CSS
+.brand{
+  img{
+    height: 30px;
+  }
+  div{
+    color: $white;
+    margin-left: 5px;
+    h2{
+      font-size: .95rem;
+      margin-bottom: 3px;
+    }
+    h3{
+      font-size: .5rem;
+    }
+  }
+}
+
 .long-white-line{
   display: inline-block;
   width: 150px;
@@ -44,6 +63,17 @@
   background: $dark-gold;
   border-radius: 3px;
   z-index: 1;
+}
+
+.more{
+  padding: 50px 0;
+  display: inline-block;
+  a{
+    color: $black;
+    font-size: .7rem;
+    border: 1px solid $dark-gold;
+    padding: 10px 50px;
+  }
 }
 
 .img-set{
