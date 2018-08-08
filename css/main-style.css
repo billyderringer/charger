@@ -519,7 +519,7 @@ header {
       opacity: .25;
       position: absolute;
       top: 220px;
-      right: 0;
+      right: 80px;
       font-size: 13rem;
       font-weight: 100;
       line-height: .85; }
@@ -527,7 +527,7 @@ header {
       opacity: .75;
       position: absolute;
       bottom: 60px;
-      right: 40px;
+      right: 120px;
       padding-top: 40px;
       font-size: .6rem;
       -webkit-transform: rotate(-90deg);
