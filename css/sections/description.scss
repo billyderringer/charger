@@ -32,6 +32,7 @@
   }
   #customs{
     color: $light-gold;
+    flex-wrap: wrap;
     @media screen and (max-width: $tablet-max) {
       display: none;
     }
