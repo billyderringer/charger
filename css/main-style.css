@@ -612,7 +612,8 @@ header {
       font-size: 3em; }
     #container-description div p {
       font-size: .8rem;
-      position: relative; }
+      position: relative;
+      line-height: 1.5; }
       #container-description div p #t-indent {
         color: #bb8755;
         position: absolute;
