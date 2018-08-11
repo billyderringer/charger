@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="df87c3b8-2fa3-4598-aa33-d11422933a8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/splash-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/splash-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/services-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/services-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/testimonial-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/testimonial-bg.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,7 +33,7 @@
           <entry key="css" value="4" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="2" />
-          <entry key="jpg" value="1" />
+          <entry key="jpg" value="7" />
           <entry key="js" value="22" />
           <entry key="json" value="2" />
           <entry key="scss" value="60" />
@@ -44,7 +45,7 @@
           <entry key="CSS" value="4" />
           <entry key="Git file" value="2" />
           <entry key="HTML" value="2" />
-          <entry key="Image" value="1" />
+          <entry key="Image" value="7" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="22" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -77,15 +78,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -95,12 +87,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/sections/description.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/assets/services-bg.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/splash-bg.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/testimonial-bg.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/services-bg-sm.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/rock-porsche.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/project-1.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -196,7 +209,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-20" />
     <option name="y" value="-20" />
     <option name="width" value="3875" />
@@ -216,6 +229,11 @@
             <path>
               <item name="charger" type="b2602c69:ProjectViewProjectNode" />
               <item name="charger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="charger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="charger" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="charger" type="b2602c69:ProjectViewProjectNode" />
@@ -289,18 +307,18 @@
       <workItem from="1533801492227" duration="670000" />
       <workItem from="1533858162400" duration="107000" />
       <workItem from="1533881440415" duration="1088000" />
-      <workItem from="1533957534977" duration="79000" />
+      <workItem from="1533957534977" duration="356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93844000" />
+    <option name="totallyTimeSpent" value="94121000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27565393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27565393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -316,7 +334,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.18645205" />
+      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.18645205" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,6 +522,24 @@
           <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/services-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/splash-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/testimonial-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/services-bg-sm.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/rock-porsche.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/project-1.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
