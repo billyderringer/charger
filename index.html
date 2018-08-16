@@ -23,6 +23,7 @@
 <header id="floating-nav"
         class="flex f-row">
 
+    <!-- Nav Logo -->
     <section class="brand f-center-all f-row">
         <img src="./assets/logo%2060x62.png" alt="Charger">
         <div class="flex f-column fj-start">
@@ -31,11 +32,15 @@
         </div>
     </section>
 
+    <!-- Middle Nav -->
     <nav>
         <ul class="flex f-row sub-font">
-            <li><a href="#container-about">ABOUT US</a></li>
-            <li><a href="#container-services">SERVICES</a></li>
-            <li><a href="#container-projects">PROJECTS</a></li>
+            <li><a class="smoothScroll"
+                   href="#container-about">ABOUT US</a></li>
+            <li><a class="smoothScroll"
+                   href="#container-services">SERVICES</a></li>
+            <li><a class="smoothScroll"
+                   href="#container-projects">PROJECTS</a></li>
         </ul>
     </nav>
 
@@ -112,8 +117,9 @@
             <span class="short-gold-line"></span>
             <a href="#splash-left">NEXT</a>
         </p>
-        <a id="scroll-down-splash"
-           href="#splash-right">Scroll Down</a>
+        <a class="smoothScroll"
+           id="scroll-down-splash"
+           href="#container-about">Scroll Down</a>
     </section>
 </section>
 
@@ -135,7 +141,8 @@
                     we can do.
                 </p>
                 <h3 class="more">
-                    <a href="#container-about">MORE</a>
+                    <a class="smoothScroll"
+                       href="#container-services">MORE</a>
                 </h3>
             </div>
         </article>
@@ -169,7 +176,8 @@
                     </div>
                     <div id="learn-more-services">
                         <h3>
-                            <a href="#container-services">LEARN MORE</a>
+                            <a class="smoothScroll"
+                               href="#container-projects">LEARN MORE</a>
                         </h3>
                     </div>
                 </div>
@@ -180,15 +188,18 @@
                         <h2>Tuning</h2>
                         <span class="short-gold-line"></span>
                         <p>Modification of the performance or appearance of a vehicle</p>
-                        <h3><a href="#gallery">READ MORE</a></h3>
+                        <h3><a class="smoothScroll"
+                               href="#gallery">READ MORE</a></h3>
                     </div>
                     <div id="service-2"
                          class="img-set flex f-justify-center fa-end">
-                        <h4><a href="#gallery">Restoration</a></h4>
+                        <h4><a class="smoothScroll"
+                               href="#gallery">Restoration</a></h4>
                     </div>
                     <div id="service-3"
                          class="img-set flex f-justify-center fa-end">
-                        <h4><a href="#gallery">Repairs</a></h4>
+                        <h4><a class="smoothScroll"
+                               href="#gallery">Repairs</a></h4>
                     </div>
                 </div>
             </div>
@@ -204,16 +215,23 @@
     </div>
     <section id="projects"
              class="flex f-row">
-        <a href="#projects"><img src="./assets/project-1.jpg" alt="project-1"></a>
-        <a href="#projects"><img src="./assets/project-2.jpg" alt="project-2"></a>
-        <a href="#projects"><img src="./assets/project-3.jpg" alt="project-3"></a>
-        <a href="#projects"><img src="./assets/project-4.jpg" alt="project-4"></a>
-        <a href="#projects"><img src="./assets/project-5.jpg" alt="project-5"></a>
-        <a href="#projects"><img src="./assets/project-6.jpg" alt="project-6"></a>
+        <a class="smoothScroll"
+           href="#projects"><img src="./assets/project-1.jpg" alt="project-1"></a>
+        <a class="smoothScroll"
+            href="#projects"><img src="./assets/project-2.jpg" alt="project-2"></a>
+        <a class="smoothScroll"
+           href="#projects"><img src="./assets/project-3.jpg" alt="project-3"></a>
+        <a class="smoothScroll"
+           href="#projects"><img src="./assets/project-4.jpg" alt="project-4"></a>
+        <a class="smoothScroll"
+           href="#projects"><img src="./assets/project-5.jpg" alt="project-5"></a>
+        <a class="smoothScroll"
+           href="#projects"><img src="./assets/project-6.jpg" alt="project-6"></a>
     </section>
     <section class="f-center-all">
         <h3 class="more">
-            <a href="#container-projects">MORE</a>
+            <a class="smoothScroll"
+               href="#portfolio">MORE</a>
         </h3>
     </section>
     <section id="portfolio">
@@ -273,7 +291,8 @@
             amazing rides and concepts.
         </p>
         <h3 class="more">
-            <a href="#container-description">MORE</a>
+            <a class="smoothScroll"
+               href="#footer">MORE</a>
         </h3>
     </div>
     <section id="customs">
@@ -285,7 +304,8 @@
 </section>
 
 <!-- Footer -->
-<footer class="flex">
+<footer id="footer"
+        class="flex">
     <section class="flex f-column">
         <div class="brand f-center-all f-row">
             <img src="./assets/logo%2060x62.png" alt="Charger">
@@ -299,9 +319,12 @@
     <section class="flex f-column">
         <ul id="footer-list"
             class="flex f-row sub-font">
-            <li><a href="#container-about">ABOUT US</a></li>
-            <li><a href="#container-services">SERVICES</a></li>
-            <li><a href="#container-projects">PROJECTS</a></li>
+            <li><a class="smoothScroll"
+                   href="#container-about">ABOUT US</a></li>
+            <li><a class="smoothScroll"
+                   href="#container-services">SERVICES</a></li>
+            <li><a class="smoothScroll"
+                   href="#container-projects">PROJECTS</a></li>
         </ul>
         <p id="credit">Designed by
             <a href="https://dribbble.com/shots/4397621-Charger-Customs-Free-Psd-Website-Template"
@@ -320,7 +343,8 @@
 <script>
     require(['config'], () => {
         require([
-            'styles'
+            'styles',
+            'scroll'
         ])
     })
 </script>
